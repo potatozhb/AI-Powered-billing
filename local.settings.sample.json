@@ -1,0 +1,19 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "Sql__ConnectionString": "",
+    "AzureSearch__ServiceUrl": "https://your-search-service.search.windows.net",
+    "AzureSearch__ApiKey": "",
+    "AzureSearch__VectorDimensions": "1536",
+    "AzureSearch__VectorSearchProfileName": "vector-profile",
+    "AzureSearch__VectorAlgorithmConfigurationName": "myHnsw",
+    "AzureSearch__VectorizerName": "myFoundry",
+    "AzureSearch__BLOBStorageConnectionString": "",
+    "Foundry__ServiceUrl": "https://your-foundry-resource.cognitiveservices.azure.com/",
+    "Foundry__ApiKey": "",
+    "Foundry__EmbeddingDeploymentName": "text-embedding-3-small",
+    "Foundry__EmbeddingModelName": "text-embedding-3-small"
+  }
+}
